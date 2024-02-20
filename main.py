@@ -20,6 +20,7 @@ Yc = 17.3 * (10 ** -6)
 
 class Calculation:
     def __init__(self, n0, i, s1, n1, s2, n2):
+        i /= 100
         self.s0 = None
 
         if n0 == n1:
@@ -42,12 +43,12 @@ class Calculation:
 
 
 if __name__ == "__main__":
-    n0 = 1
-    i = 2
-    s1 = 3
-    n1 = 4
-    s2 = 5
-    n2 = 6
+    n0 = 6
+    i = 12
+    s1 = 10
+    n1 = 3
+    s2 = 15
+    n2 = 8
     calculation = Calculation(n0, i, s1, n1, s2, n2)
     print(calculation.s0)
     # ChartLinePLT(calculation.chart_v_y_data)
