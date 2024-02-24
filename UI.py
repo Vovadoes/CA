@@ -58,10 +58,10 @@ class mywindow(QtWidgets.QMainWindow):
         print(self.sizeHint())
 
         if DEDUG:
-            self.ui.doubleSpinBox_31.setValue(1)  # n0
-            self.ui.doubleSpinBox_32.setValue(2)  # i
+            self.ui.doubleSpinBox_31.setValue(7)  # n0
+            self.ui.doubleSpinBox_32.setValue(12)  # i
             self.ui.doubleSpinBox_35.setValue(3)  # s1
-            self.ui.doubleSpinBox_37.setValue(4)  # n1
+            self.ui.doubleSpinBox_37.setValue(1)  # n1
             self.ui.doubleSpinBox_36.setValue(5)  # s2
             self.ui.doubleSpinBox_38.setValue(6)  # n2
 
