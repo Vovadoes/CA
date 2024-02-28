@@ -41,7 +41,7 @@ class Ui_Form(object):
         font.setPointSize(14)
         self.doubleSpinBox_32.setFont(font)
         self.doubleSpinBox_32.setStyleSheet("color: black; background-color: white;")
-        self.doubleSpinBox_32.setDecimals(1)
+        self.doubleSpinBox_32.setDecimals(3)
         self.doubleSpinBox_32.setMinimum(-999999999.0)
         self.doubleSpinBox_32.setMaximum(999999999.0)
         self.doubleSpinBox_32.setProperty("value", 0.0)
